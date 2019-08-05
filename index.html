@@ -1,0 +1,50 @@
+<!DOCTYPE <!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="main.css" rel = "stylesheet">
+    
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+  <div id='map' style='width: 100%; height: 100%;'></div>
+  <script>
+    
+  </script>
+
+  <i 
+    id="menu-bars" 
+    class="fa fa-bars fa-lg" 
+    aria-hidden="true"
+    onclick="menuBarClick()"
+    >
+  </i>
+  <div id="sidebar">
+    <div id="input-container">
+      <input 
+        id ="input"
+        tyep="text"
+        oninput="onInputChange()"
+        >
+      </input>
+    </div>
+   
+
+  </div>
+
+  </body>
+  <script src="main.js"></script>
+</html>
